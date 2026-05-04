@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1{
+    text-align: center;
+    text-decoration: line-through;
+    font-family: "Roboto", sans-serif;
+    display: inline;
+}
+span{
+    display: none;
+}
+p{
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 50px;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+li{
+    list-style-type: square;
+}

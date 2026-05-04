@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+header ul {
+  list-style-type: none;
+  text-align: right;
+}
+header li {
+  display: inline-block;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-right: 12px;
+}
+header .row {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  /* background-color: antiquewhite; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  align-items: center;
+}
+
+.banner_section img {
+  width: 100%;
+}
+
+/* About us Design */
+.inner_banner .heading {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.inner_banner {
+  background-image: url("images/about.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.welcome_section .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.welcome_section .frist_column img {
+  width: 100%;
+}
+.welcome_section span {
+  color: blue;
+}
+
+.welcome_section p {
+  font-size: 12px;
+}
+
+/* Course section Design */
+.course_section .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.course_section .row img{
+    width: 100%;
+}
+
+.course_section h3{
+    font-size: 20px;
+}
+.course_section p{
+    font-size: 14px;
+    color: rgb(58, 57, 57);
+}
+
+.course_section h2{
+    text-align: center;
+}
+.course_section{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+/* student_feedback */
+.student_feedback{
+    margin-bottom: 30px;
+}
+.student_feedback .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    text-align: center;
+}
+.student_feedback .row img{
+    /* width: 100%; */
+    border-radius: 50%;
+}
+.student_feedback h2{
+    text-align: center;
+    padding-bottom: 10px;
+}

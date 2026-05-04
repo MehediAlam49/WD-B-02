@@ -1,0 +1,36 @@
+h1{
+    color: red;
+}
+/* #id1{
+    color: blue;
+} */
+
+.para1{
+    background-color: antiquewhite;
+    color: blue;
+}
+
+.para2{
+    color: red;
+    font-size: 30px;
+}
+
+/* .para3{
+    color: green;
+} */
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
