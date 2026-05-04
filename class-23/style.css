@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header ul {
+  list-style-type: none;
+  text-align: right;
+}
+header li {
+  display: inline-block;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-right: 12px;
+}
+header .row {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  /* background-color: antiquewhite; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  align-items: center;
+}
+
+.banner_section img {
+  width: 100%;
+}
+
+/* Course section Design */
+.course_section .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+}
+
+.course_section .row img {
+  width: 100%;
+}
+
+.course_section h3 {
+  font-size: 20px;
+}
+.course_section p {
+  font-size: 14px;
+  color: rgb(58, 57, 57);
+}
+
+.course_section h2 {
+  text-align: center;
+}
+.course_section {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+/* student_feedback */
+.student_feedback {
+  margin-bottom: 30px;
+}
+.student_feedback .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  text-align: center;
+}
+.student_feedback .row img {
+  /* width: 100%; */
+  border-radius: 50%;
+}
+.student_feedback h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* Gallery Section */
+.gallery_section .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 12px;
+  row-gap: 7px;
+}
+
+.gallery_section img {
+  width: 100%;
+}
+
+.gallery_section h2 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+.gallery_section {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* footer section */
+.footer_section p {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer_section {
+  background-color: black;
+}
+
+.footer_section a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+/* About us Design */
+.inner_banner .heading {
+  text-align: center;
+  color: white;
+  padding-top: 96px;
+  padding-bottom: 104px;
+}
+
+.inner_banner {
+  background-image: url("images/about.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Welcome Section  */
+.welcome_section .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.welcome_section .frist_column img {
+  width: 100%;
+}
+.welcome_section span {
+  color: #173a69;
+  font-weight: 800;
+}
+
+.welcome_section h4 {
+  color: #090909;
+  font-weight: 600;
+}
+
+.welcome_section p {
+  font-size: 12px;
+  color: #090909;
+}
+
+.welcome_section {
+  margin-top: 86px;
+  margin-bottom: 79px;
+}
+
+/* About service section */
+.about_page_service .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+.about_page_service h2{
+  font-size: 24px;
+  font-weight: bold;
+  color: #173a69;
+}
+
+.about_page_service p{
+  font-size: 15px;
+  color: #090909;
+}
+.about_page_service p span{
+  color: #173a69;
+  font-weight: 600;
+}
+
+.about_page_service .flex_column{
+  padding-top: 30px;
+  padding-bottom: 47px;
+  padding-left: 28px;
+  padding-right: 25px;
+  text-align: center;
+  background-color: white;
+}
+.about_page_service{
+  background-image: url("images/about_service_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
+
+/* Constraction section */
+
+.constraction_section .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+.constraction_section .content{
+  background-image: url("images/constraction_bg.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.constraction_section h2{
+  padding-top: 46px;
+  padding-bottom: 48px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+}
+.constraction_section h2 span{
+  color: #173a69;
+}
+
+.constraction_section .flex_column h2{
+  font-weight: 700;
+  font-size: 25px;
+  color: #173a69;
+  padding-top: 36px;
+  padding-bottom: 17px;
+}
+.constraction_section p{
+  font-size: 15px;
+  color: #494949;
+}
+
+.constraction_section .flex_column{
+  padding-top: 83px;
+  padding-bottom: 124px;
+  padding-left: 28px;
+  padding-right: 25px;
+  text-align: center;
+}
+
+/* get_started_section */
+.get_started_section{
+  background-color: #173a69;
+  padding-top: 90px;
+  padding-bottom: 82px;
+}
+.get_started_section p{
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+.get_started_section p span{
+  font-weight: 800;
+  font-size: 30px;
+}

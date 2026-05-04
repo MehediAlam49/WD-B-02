@@ -1,0 +1,12 @@
+
+/* product showcase */
+.product_showcase{
+    overflow: hidden;
+}
+.product_showcase img{
+    transition: 0.5s;
+    cursor: pointer;
+}
+.product_showcase img:hover{
+    transform: scale(1.3);
+}

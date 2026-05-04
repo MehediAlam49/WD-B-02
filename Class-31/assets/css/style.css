@@ -1,0 +1,16 @@
+
+.band_details ul{
+    list-style-type: none;
+}
+.band_details ul li{
+    border: 1px solid gray;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 128, 0, 0.433);
+    padding: 7px;
+    font-weight: bold;
+}
+.band_details ul li:hover{
+    background-color: blue;
+    color: white;
+}
